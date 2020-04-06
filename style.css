@@ -10,7 +10,6 @@ body {
   --clr-bg: #fff;
   --clr-text: #000;
   --clr-accent: #004d7a;
-  /* --clr-accent2: #008793; */
 
   background-color: var(--clr-bg);
   color: var(--clr-text);
@@ -28,7 +27,6 @@ body.dark {
   --clr-bg: #333;
   --clr-text: #fff;
   --clr-accent: #d0d066;
-  /* --clr-accent2: #eded80; */
 }
 
 h1,
@@ -44,6 +42,10 @@ h1 {
 
 h3 {
   margin-bottom: 3vh;
+}
+
+a {
+  color: var(--clr-accent);
 }
 
 .sun-moon-container {
